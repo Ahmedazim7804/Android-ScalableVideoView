@@ -31,7 +31,7 @@ jobs:
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
+      uses: gradle/actions/setup-gradle@e2b82129ab64751fd40437007bd2f7f2afb3c6e41a9198e628650b22d5824a14 # v4.0.0
 
     - name: Build with Gradle
       run: ./gradlew build
