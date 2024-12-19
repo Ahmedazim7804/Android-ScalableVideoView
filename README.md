@@ -107,7 +107,7 @@ public void onClick(View v) {
   }
 }
 ```
-[ScalableVideoView](https://github.com/yqritc/Android-ScalableVideoView/blob/master/library/src/main/java/com/yqritc/scalablevideoview/ScalableVideoView.java) is extending TextureView to play video by using MediaPlayer.  
+[ScalableVideoViewa](https://github.com/yqritc/Android-ScalableVideoView/blob/master/library/src/main/java/com/yqritc/scalablevideoview/ScalableVideoView.java) is extending TextureView to play video by using MediaPlayer.  
 Basic functionalities are defined in this class to play and scale video.  
 If you need to control more, extend this class and define your custom video view.  
 
