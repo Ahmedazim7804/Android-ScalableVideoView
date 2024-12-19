@@ -28,7 +28,7 @@ publishing {
 
   repositories {
     maven {
-      name = "Android-ScaleVideoView"
+      name = "GithubPackages"
       url = "https://maven.pkg.github.com/ahmedazim7804/Android-ScalableVideoView"
       credentials {
         username = System.getenv("GITHUB_ACTOR")
