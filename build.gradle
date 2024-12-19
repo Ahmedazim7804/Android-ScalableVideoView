@@ -18,3 +18,22 @@ allprojects {
         jcenter()
     }
 }
+
+plugins {
+  ...
+  id 'maven-publish'
+}
+
+publishing {
+
+  repositories {
+    maven {
+      name = "Android-ScaleVideoView"
+      url = "https://maven.pkg.github.com/ahmedazim7804/Android-ScalableVideoView"
+      credentials {
+        username = System.getenv("GITHUB_ACTOR")
+        password = System.getenv("GITHUB_TOKEN")
+      }
+    }
+  }
+}
